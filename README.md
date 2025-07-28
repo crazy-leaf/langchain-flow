@@ -15,7 +15,7 @@ Here's a look at the NodeNarrative in action:
 * **React** - JavaScript library for building user interfaces
 * **Vite** - Next-generation frontend tooling
 * **React Flow (xyflow)** - Library for building node-based editors
-* **JavaScript/TypeScript** - For development (specify which one you used predominantly or if both are supported)
+* **TypeScript** - For development
 
 ---
 
@@ -46,8 +46,8 @@ Make sure you have Node.js installed on your machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/node-narrative.git](https://github.com/YOUR_USERNAME/node-narrative.git)
-    cd node-narrative
+    git clone https://github.com/crazy-leaf/chatpdf.git
+    cd langchain1
     ```
 2.  **Install dependencies:**
     ```bash
