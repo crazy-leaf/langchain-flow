@@ -52,7 +52,7 @@ Make sure you have Node.js installed on your machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/crazy-leaf/chatpdf.git
+    git clone https://github.com/crazy-leaf/langchain-flow.git
     cd langchain1
     ```
 2.  **Install dependencies:**
