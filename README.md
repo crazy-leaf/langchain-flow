@@ -30,9 +30,6 @@ Here's a look at the Langchain-flow-builder in action:
 * **Text Node:** Supports a single type of message node for building conversational flows. Multiple text nodes can be added.
 * **Nodes Panel:** An extensible sidebar for dragging and dropping new nodes onto the canvas.
 * **Edges:** Connects two nodes to define the flow of conversation.
-* **Handles:**
-    * **Source Handle:** Allows only **one** outgoing edge.
-    * **Target Handle:** Can accept **multiple** incoming edges.
 * **Settings Panel:** Replaces the Nodes Panel when a node is selected, allowing for text editing of the selected node.
 * **Save Functionality:** Saves the current flow state. Includes validation to prevent saving if multiple nodes have unconnected target handles (ensuring a complete flow).
 
