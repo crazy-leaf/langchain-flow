@@ -6,7 +6,13 @@ A sleek and responsive chatbot flow builder built with React and powered by `rea
 
 ## Screenshots
 
-Here's a look at the NodeNarrative in action:
+Here's a look at the Langchain-flow-builder in action:
+
+![Langchain-flow-builder Screen 1](https://github.com/crazy-leaf/langchain-flow/blob/main/screenshots/Screenshot%202025-07-29%20at%203.43.29%E2%80%AFAM.png)
+
+![Langchain-flow-builder Screen 2](https://github.com/crazy-leaf/langchain-flow/blob/main/screenshots/Screenshot%202025-07-29%20at%203.44.39%E2%80%AFAM.png)
+
+![Langchain-flow-builder Screen 3](https://github.com/crazy-leaf/langchain-flow/blob/main/screenshots/Screenshot%202025-07-29%20at%203.44.51%E2%80%AFAM.png)
 
 ---
 
