@@ -1,70 +1,63 @@
-# React + TypeScript + Vite
+# Langchain-flow-builder: A Chatbot Flow Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive chatbot flow builder built with React and powered by `react-flow` (formerly `xyflow`). This allows users to visually construct chatbot conversation flows by connecting different message nodes, starting with basic text messages.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
 
-## Expanding the ESLint configuration
+Here's a look at the NodeNarrative in action:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Technologies Used
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+* **React** - JavaScript library for building user interfaces
+* **Vite** - Next-generation frontend tooling
+* **React Flow (xyflow)** - Library for building node-based editors
+* **JavaScript/TypeScript** - For development (specify which one you used predominantly or if both are supported)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+* **Text Node:** Supports a single type of message node for building conversational flows. Multiple text nodes can be added.
+* **Nodes Panel:** An extensible sidebar for dragging and dropping new nodes onto the canvas.
+* **Edges:** Connects two nodes to define the flow of conversation.
+* **Handles:**
+    * **Source Handle:** Allows only **one** outgoing edge.
+    * **Target Handle:** Can accept **multiple** incoming edges.
+* **Settings Panel:** Replaces the Nodes Panel when a node is selected, allowing for text editing of the selected node.
+* **Save Functionality:** Saves the current flow state. Includes validation to prevent saving if multiple nodes have unconnected target handles (ensuring a complete flow).
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# langchain-flow
+---
+
+## 📦 Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+Make sure you have Node.js installed on your machine.
+
+* [Node.js](https://nodejs.org/en/)
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/node-narrative.git](https://github.com/YOUR_USERNAME/node-narrative.git)
+    cd node-narrative
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+3.  **To run the development server:**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
